@@ -1,0 +1,26 @@
+{
+    "name": "saidul44/first-package",
+    "description": "First Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saidul",
+            "email": "saidul.islam.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Saidul44\\FirstPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saidul44\\FirstPackage\\FirstPackageServiceProvider"
+            ]
+        }
+    }
+}
