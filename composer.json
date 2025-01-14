@@ -11,7 +11,15 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/saidul44/first-package"
+        }
+    ],
+    "require": {
+        "saidul44/first-package": "1.0.0"
+    },
     "autoload": {
         "psr-4": {
             "Saidul44\\FirstPackage\\": "src/"
@@ -23,5 +31,6 @@
                 "Saidul44\\FirstPackage\\FirstPackageServiceProvider"
             ]
         }
-    }
+    },
+    
 }
