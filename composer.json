@@ -14,7 +14,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/saidul44/first-package"
+            "url": "https://github.com/Saidul44/first-package"
         }
     ],
     "require": {
