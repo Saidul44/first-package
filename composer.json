@@ -9,12 +9,12 @@
             "email": "saidul.islam.cse@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Saidul44/first-package"
+            "url": "https://github.com/saidul44/first-package"
         }
     ],
     "require": {
